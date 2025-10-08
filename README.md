@@ -95,8 +95,7 @@ Existem vários tipos de constraints no SQL, incluindo:
 
 - `Check` (Verificação): Uma constraint que define uma condição que os valores de uma coluna devem atender.
 
-
-A restrição default em SQL define um valor padrão para uma coluna em uma tabela, que será automaticamente inserido em um novo registro se nenhum valor for fornecido para essa coluna na operação de `INSERT`. Isso garante que a coluna sempre tenha um valor, seja ele um número, texto, data ou até mesmo o resultado de uma função de sistema, como `GETDATE()`. 
+- `Default` (Valor): Define um valor padrão para uma coluna em uma tabela, que será automaticamente inserido em um novo registro se nenhum valor for fornecido para essa coluna na operação de `INSERT`. Isso garante que a coluna sempre tenha um valor, seja ele um número, texto, data ou até mesmo o resultado de uma função de sistema, como `GETDATE()`. 
 
 
 Essas constraints são usadas para impor integridade nos dados do banco de dados, garantindo que apenas valores válidos sejam armazenados nas tabelas e mantendo a consistência dos dados.
