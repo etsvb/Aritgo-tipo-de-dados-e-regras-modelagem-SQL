@@ -1,13 +1,12 @@
 # Tipos de dados e regras na modelagem SQL
 
-Introdução:
 Os tipos de dados SQL são fundamentais para a definição e estruturação de informações dentro de um banco de dados relacional. Eles determinam o tipo de valor que uma coluna pode armazenar, garantindo a integridade e a consistência dos dados. Cada tipo de dado tem características próprias que influenciam a forma como os dados são armazenados e manipulados.
 
 Os principais tipos de dados SQL incluem:
 
 - Numéricos;
 
-- Caractere e Cadeias de Texto;
+- Caracteres e Cadeias de Texto;
 
 - Data e Hora;
 
