@@ -30,6 +30,19 @@ As colunas numéricas em SQL armazenam diferentes tipos de números e podem repr
 
 Diferente de outros tipos de dados, os numéricos podem representar todas essas escalas, o que os torna versáteis em diferentes contextos.
 
+```bash
+CREATE DATABASE Universidade;
+USE Universidade;
+
+CREATE TABLE Alunos (
+    id_aluno INT PRIMARY KEY,               -- Escala NOMINAL (apenas rótulo)
+    nivel_satisfacao TINYINT,               -- Escala ORDINAL (1=ruim, 2=médio, 3=ótimo)
+    temperatura_sala DECIMAL(5,2),          -- Escala INTERVALO (ex: 22.5°C)
+    horas_estudo_semanais DECIMAL(5,2)      -- Escala RAZÃO (0 = ausência total)
+);
+
+```
+
 ---
 
 # String
@@ -43,6 +56,19 @@ Tipos de dados de string:
 - `VARCHAR`: Armazena strings de comprimento variável, ocupando apenas o espaço necessário para os dados. 
 
 - `TEXT`: Usado para armazenar textos mais longos, com um comprimento máximo maior que `VARCHAR`.
+
+```bash
+CREATE DATABASE Biblioteca;
+USE Biblioteca;
+
+CREATE TABLE Livros (
+    id_livro INT PRIMARY KEY,
+    codigo CHAR(5),                -- Tipo CHAR: tamanho fixo (sempre 5 caracteres)
+    titulo VARCHAR(100),           -- Tipo VARCHAR: tamanho variável até 100
+    descricao TEXT                 -- Tipo TEXT: texto longo
+);
+
+```
 
 ---
 
@@ -59,7 +85,7 @@ São eles os mais padrões: `DATE` / `TIME` / `TIMESTAMP` / `INTERVAL`.
 
 `INTERVAL`: É usado para armazenar informações sobre intervalos de tempo.
 
- 
+ <img src="https://sqlfromhell.wordpress.com/wp-content/uploads/2011/07/071511_1306_sqlserverde1.png?w=645" width="500">
 
 # Booleanos
 
@@ -72,6 +98,9 @@ No booleano se usa: `TRUE` // `FALSE` // `NULL`.
 `FALSE`: Representa 0 ou Falso.
 
 `NULL`: Representa “Desconhecido”.
+
+<img src="https://raresql.com/wp-content/uploads/2013/05/boolean_to_string1-1.png" width="500">
+
 
 ---
 
@@ -99,3 +128,23 @@ Existem vários tipos de constraints no SQL, incluindo:
 
 
 Essas constraints são usadas para impor integridade nos dados do banco de dados, garantindo que apenas valores válidos sejam armazenados nas tabelas e mantendo a consistência dos dados.
+
+---
+
+**Materiais de apoio e extenção:**
+
+- https://learnsql.com.br/blog/entendendo-tipos-de-dados-numericos-em-sql/
+
+- https://www.datacamp.com/pt/tutorial/integrity-constraints-sql
+
+- https://www.dio.me/articles/restricoes-no-sql
+
+- https://youtu.be/SEnnucNP1h0?si=RK1yYxHoYMauPfc8
+
+- https://youtu.be/ZX7EuRWRdZg?si=YLGxtszoJYYssDBq
+
+---
+
+   Dupla:
+  - Ericha Tainá
+  - Kennedy Veras
