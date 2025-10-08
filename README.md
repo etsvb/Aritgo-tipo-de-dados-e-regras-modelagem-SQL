@@ -47,3 +47,30 @@ Tipos de dados de string
 
 ---
 
+# Data e Hora
+
+O tipo de dado de data e hora são usados para representar valores temporais, com eles podemos fazer cálculos e operações cronológicas. 
+São eles os mais padrões: `DATE` / `TIME` / `TIMESTAMP` / `INTERVAL`.
+
+`DATE`: É usado para armazenar datas sem a hora exata;
+
+`TIME`: Nos permite armazenar tempo sem data;
+
+`DATETIME`: Permite armazenar data e horas juntos;
+
+`INTERVAL`: É usado para armazenar informações sobre intervalos de tempo.
+
+ 
+
+# Booleanos
+
+O tipo de dado booleano(BOOLEAN) serve para armazenar valores lógicos para representar verdadeiro`(TRUE)` ou `falso(FALSE)`.  Ele é ideal para situações que exigem uma resposta binária, como “sim ou não” e “ligado ou desligado”. 
+
+No booleano se usa: `TRUE` // `FALSE` // `NULL`.
+
+`TRUE`: Representa 1 ou Verdadeiro.
+
+`FALSE`: Representa 0 ou Falso.
+
+`NULL`: Representa “Desconhecido”.
+
