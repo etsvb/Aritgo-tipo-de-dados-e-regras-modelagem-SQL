@@ -36,7 +36,7 @@ Diferente de outros tipos de dados, os numéricos podem representar todas essas 
 
 É referente a um tipo de dado que armazena diferentes sequências de caracteres, como texto. Usadas para representar dados textuais, o SQL oferece vários tipos de dados (como `CHAR`, `VARCHAR` e `TEXT`) para essa finalidade. Além disso, o SQL possui diversas funções para manipular strings, como `CONCAT()` para unir strings, `LOWER()` e `UPPER()` para converter para maiúsculas/minúsculas, `SUBSTRING()` para extrair partes de uma string e `REPLACE()` para substituir caracteres.
 
-Tipos de dados de string
+Tipos de dados de string:
 
 - `CHAR`: Armazena strings de comprimento fixo, preenchendo com espaços se necessário. 
 
