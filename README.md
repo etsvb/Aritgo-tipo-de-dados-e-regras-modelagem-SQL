@@ -74,3 +74,30 @@ No booleano se usa: `TRUE` // `FALSE` // `NULL`.
 
 `NULL`: Representa “Desconhecido”.
 
+---
+
+# Constraints
+
+No SQL, uma constraint é uma regra aplicada a uma ou mais colunas de uma tabela para impor restrições aos dados que podem ser inseridos ou modificados.
+
+
+Existem vários tipos de constraints no SQL, incluindo:
+
+- `Primary Key` (Chave Primária): Uma constraint que garante a unicidade e a não nulidade de uma coluna ou conjunto de colunas. É usada para identificar exclusivamente cada registro em uma tabela.
+
+
+ - `Foreign Key` (Chave Estrangeira): Uma constraint que estabelece uma relação entre duas tabelas, garantindo que os valores em uma coluna correspondam aos valores em outra coluna de outra tabela.
+
+
+- `Unique` (Único): Uma constraint que garante que os valores em uma coluna ou conjunto de colunas sejam únicos em uma tabela.
+
+
+- `Not Null` (Não Nulo): Uma constraint que garante que uma coluna não possa conter valores nulos.
+
+- `Check` (Verificação): Uma constraint que define uma condição que os valores de uma coluna devem atender.
+
+
+A restrição default em SQL define um valor padrão para uma coluna em uma tabela, que será automaticamente inserido em um novo registro se nenhum valor for fornecido para essa coluna na operação de `INSERT`. Isso garante que a coluna sempre tenha um valor, seja ele um número, texto, data ou até mesmo o resultado de uma função de sistema, como `GETDATE()`. 
+
+
+Essas constraints são usadas para impor integridade nos dados do banco de dados, garantindo que apenas valores válidos sejam armazenados nas tabelas e mantendo a consistência dos dados.
