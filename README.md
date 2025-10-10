@@ -131,7 +131,7 @@ Essas constraints são usadas para impor integridade nos dados do banco de dados
 
 ---
 
-**Materiais de apoio e extenção:**
+**Materiais de apoio e extensão:**
 
 - https://learnsql.com.br/blog/entendendo-tipos-de-dados-numericos-em-sql/
 
